@@ -6,6 +6,7 @@ This little project is a RESTful API build in [Laravel](https://github.com/larav
 *Setting up the local machine is well explained in the [first section of the Laravel-6-from-scratch serie](https://laracasts.com/series/laravel-6-from-scratch).*
 ```
 php artisan migrate:fresh
+php artisan db:seed
 php artisan serve
 ```
 
