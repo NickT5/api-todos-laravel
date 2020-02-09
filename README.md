@@ -1,5 +1,5 @@
 ## About
-This little project is a RESTful API build in [Laravel](https://github.com/laravel/laravel) to learn the basics of Laravel. The API can show, update and delete tasks.
+This little project is a RESTful API build in [Laravel](https://github.com/laravel/laravel) to learn the very basics of Laravel. The API can create, show, update and delete tasks.
 
 ## Run the API
 *Note: php, composer and laravel need to be installed on your device. Laravel has a lot of video tutorials on Laravel, PHP, unit testing, etc on [Laracast](https://laracasts.com).*
@@ -11,7 +11,7 @@ php artisan serve
 ```
 
 ## Interact with the API
-You can use cURL to interact with the API. It's a command line tool for transfering data for various protocols. The tool is installed in the terminal by default.
+You can use cURL to interact with the API. It's a command line tool for transfering data for various protocols. The tool is installed in the command prompt/terminal by default.
 A more convenient way to interact/test the API is [Postman](https://www.getpostman.com/) which you need to download, install and register for.
 
 - Demo: HTTP GET request to /api/tasks with Postman returns all tasks in json format.
